@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>SmartTransportation - Dataset</title>
+<link rel="icon" href="images/favicon.gif" type="image/x-icon"/>
+ <!--[if lt IE 9]>
+ <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+<link rel="shortcut icon" href="images/favicon.gif" type="image/x-icon"/> 
+<link rel="stylesheet" type="text/css" href="css/styles.css"/>
+</head>
+<body>
+   <div class="bg">
+    <!--start container-->
+    <div id="container">
+    <!--start header-->
+    <header>
+      <!--start logo-->
+      <a href="#" id="logo"><h1>SmartTransportation</h1></a>
+      <!--end logo-->
+      <!--start menu-->
+  	   <nav>
+         <ul>
+         <li><a href="index.html">Home</a></li>
+         <li><a href="index.html#about">About</a></li>
+       	 <li><a href="projects.html">Projects</a></li>
+         <li><a href="publication.html">Publication</a></li>
+         
+         <li><a href="dataset.html" class="current">Dataset</a></li>
+         </ul>
+      </nav>
+  	   <!--end menu-->
+      <!--end header-->
+	</header>
+	<div class="holder_content">
+	<!--
+	<p>
+		We deployed the system in Durgapur for a thorough experiment by 25 volunteers over 50 different trails using 13 different devices – Moto G2, Nexus 4, Nexus 7, Oneplus One, Yu Yureka, Redmi Mi4i and Asus Zenfone 5, Samsung Galaxy Tab 3, Samsung Galaxy Core Prime, Micromax Canvas 2, Gionee V4S and Karbonn Titanium S25, Xolo Q700i. The volunteers are from different age groups, and the devices we use cover a broad range of android versions and prices. Each volunteer was asked to cover two routes in the city.
+	</p>
+	<center>
+	<figure>
+		<img src="images/eval1.png" width="600" height="200" alt="crowd"/>
+		<figcaption><b>Live Experiment Device and User Distribution</b> (a): Age group distribution (b): Android version distribution (c): Device cost distribution (in Indian Currency)
+		</figcaption>
+	</figure>
+	</center>
+	<br>
+	<h3>Some Interesting Results</h3>
+	
+	<center>
+	<figure>
+		<img src="images/locerror.png" width="500" height="250" alt="localizationerror"/>
+		<figcaption>
+			<b>Localization Error over a trail</b>
+		</figcaption>
+	</figure>
+	</center>
+	
+	<center>
+	<figure>
+		<img src="images/ttd1.png" width="450" height="200" alt="ttd1"/>
+		<img src="images/ttd2.png" width="450" height="200" alt="ttd2"/>
+		<figcaption><b>ETA estimation Over 2 Routes</b>
+		</figcaption>
+	</figure>
+	</center>
+	
+	<center>
+	<figure>
+		<img src="images/energy.png" width="500" height="250" alt="energy"/>
+		<figcaption>
+			<b>Energy Consumption Comparison</b>
+		</figcaption>
+	</figure>
+	</center>
+	-->
+	<h2><center><b>CITY MAP DATASET</b></center></h2>
+	<p>CityMap maintains dataset of three cities Kolkata (KOL), Bhubaneswar (BBS) and Durgapur (DGP), in the eastern part of India. While KOL and BBS are two state capitals with areas 1887 sqkm and 422 sqkm respectively, DGP is a suburban city with area 154 sqkm.<br>
+	The dataset contains information for 30 users as follows:
+	<ol type="1">
+	<i>
+	<li>&nbsp&nbsp 1.Complete GPS annotated landmarks</li>
+	<li>&nbsp&nbsp 2.Accelerometer data with timestamp for the entire route duration</li>
+	<li>&nbsp&nbsp 3.Compass data with timestamp for the entire route duration</li>
+	</i>
+	</ol>
+</p>
+	
+	<center>
+	<figure>
+		<img src="images/citymap.jpg" width="700" height="200" alt="citymap"/>
+		<figcaption>
+			<b>Route details (N : Route name – city in brackets, L: Route length, T : Daily avg. travel duration)</b>
+		</figcaption>
+	</figure>
+	<a href="index.html#formfillup" target="_blank"><span class="button">Download</span></a> 
+	
+	</center>
+	<hr>
+	<h2><center><b>DRIVING STRESS DATASET</b></center></h2>
+	<p>The dataset contains spatio-temporal driving data for 8 drivers over 1700 trips in 15 major routes. The cars are driven by 15 male drivers of age group between 20-40 years.<br>
+	The sensor information collected are as follows:<br>
+	<ol type="1">
+	<i>
+	<li>&nbsp&nbsp 1.Accelerometer</li>
+	<li>&nbsp&nbsp 2.Gyroscope</li>
+	<li>&nbsp&nbsp 3.Magnetometer</li>
+	<li>&nbsp&nbsp 4.GPS sensor</li>
+	<li>&nbsp&nbsp 5.Camera</li>
+	
+	</i>
+	</ol>
+</p>
+	
+	<center>
+	<figure>
+		<img src="images/percom.jpg" width="600" height="300" alt="sensordata"/>
+		<figcaption>
+			<b>Driver and Car details for in-house dataset</b>
+		</figcaption>
+	</figure>
+	<a href="index.html#formfillup" target="_blank"><span class="button">Download</span></a> 
+	</center>
+	<hr>
+
+	<h2><center><b>​URBAN EYE DATASET</b></center></h2>
+	<h3><center><b>​Landmark database through War-Driving</b></center></h3>
+	<p>​UrbanEye maintains a landmark database for storing and maintaining landmark information over different bus routes, as collected through war-driving. There are two types of landmarks:
+	<ol>
+	<i>
+	<li>&nbsp&nbsp 1. Volatile (stops)</li>
+	<li>&nbsp&nbsp 2. Non-volatile (speed breakers and turns)</li>
+	</i>
+	</ol>
+	Each landmark is essentially a signature which is computed from the smart-phone sensor readings. Three primary sensors are being used for landmark detection -
+	<ol type="1">
+	<i>
+	<li>&nbsp&nbsp 1.Accelerometer</li>
+	<li>&nbsp&nbsp 2.Gyroscope</li>
+	<li>&nbsp&nbsp 3.Compass</li>
+	</i>
+	</ol>
+	During war-driving, we collect the landmark position information via GPS, and store it in a landmark database server. It can be noted that the position is an one time information which is collected for localizing the bus position during navigation. Apart from the position information, we collect sensor signatures for a landmark, time zone when the landmark is detected and mean and deviation of travel time between two landmarks.
+	
+	</p>
+	
+	<center>
+	<figure>
+		<img src="images/datagov.jpg" width="700" height="200" alt="urbaneye"/>
+		<figcaption>
+			<b>Buses Owned by Private and Public Sector During 2001-2012</b>
+		</figcaption>
+	</figure>
+	<a href="index.html#formfillup" target="_blank"><span class="button">Download</span></a> 
+	
+	</center>
+	<hr>
+
+	
+	
+	<h2><center><b>COMFRIDE</b></center></h2>
+	<p>​An exten-sive deployment of ComfRide involve 50 volunteers for a period of two years (at weekday, weekend; at 3 different time periods) over 28 routes in a state capital of India reveals that it can recom-mend routes with on average 30% better comfort level than the ones proposed by Google Maps as well as other baselines.
+	</p>
+	
+	<center>
+	<figure>
+		<img src="images/comfride.png" width="700" height="400" alt="comfride"/>
+		<figcaption>
+			<b>Data for rides from different source and destinations</b>
+		</figcaption>
+	</figure>
+	<a href="index.html#formfillup" target="_blank"><span class="button">Download</span></a> 
+	
+	</center>
+	<hr>
+	<br>
+	<br>
+	</div>
+	
+   	<p id="p02"><center> ©Smart Transportation by CneRG</center></p>
+</html>
